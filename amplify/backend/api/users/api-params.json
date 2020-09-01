@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/create",
+            "lambdaFunction": "create",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/create"
+        }
+    ],
+    "resourceName": "users",
+    "apiName": "users",
+    "functionArns": [
+        {
+            "lambdaFunction": "create"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-eshop-dev-205217-authRole",
+        "unAuthRoleName": "amplify-eshop-dev-205217-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "create",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

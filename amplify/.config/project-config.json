@@ -1,0 +1,17 @@
+{
+  "projectName": "eshop",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": ".\\",
+      "DistributionDir": ".\\",
+      "BuildCommand": "npm run build",
+      "StartCommand": "npm start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
