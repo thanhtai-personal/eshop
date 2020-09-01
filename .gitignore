@@ -3,3 +3,5 @@ tmp/
 .DS_store
 backup
 *.sw?
+node_modules/
+debug.js.json
